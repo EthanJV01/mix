@@ -64,19 +64,6 @@ body{
 	text-align: center;
 }
 
-.titulos{
-	color:var(--color-letra);
-	font-weight: 700;
-	font-size: 35px;
-	margin-bottom: 20px;
-}
-
-.subtitulos{
-	color:var(--color-letra);
-	font-size: 20px;
-	padding-bottom: 8%;
-}
-
 .morao{
 	background-color: var(--color-morado);
 	padding: 3%;
@@ -174,6 +161,19 @@ body{
 	font-size: 16px;
 }
 
+.titulos{
+	color:var(--color-letra);
+	font-weight: 700;
+	font-size: 35px;
+	margin-bottom: 20px;
+}
+
+.subtitulos{
+	color:var(--color-letra);
+	font-size: 20px;
+	padding-bottom: 8%;
+}
+
 .btn-download{
 	border: 1px solid var(--color-amarillo);
 	border-radius: 0%;
@@ -223,7 +223,62 @@ body{
 	color: var(--color-rojo);
 }
 
+.btn-rojof2{
+	border: 2px solid var(--color-rojo);
+	background-color: var(--color-rojo);
+	border-radius: 100px;
+	color: var(--color-base);
+	font-size: 15px;
+	padding: 2% 3%;
+	margin: 3% 42% 0;
+	
+}
 
+.btn-rojof2:hover{
+	border: 1px solid var(--color-amarillo);
+	background-color: var(--color-amarillo);
+	color: var(--color-rojo);
+}
+
+#form{
+	background-color: var(--fondo-features1);
+	padding: 5%;
+}
+
+.form-control{
+	background-color: var(--color-letragris);
+	border: solid 1px var(--color-rojo);
+}
+
+.form-control:enabled{
+	background-color: var(--color-letragris);
+	border: solid 1px var(--color-rojo);
+}
+
+#foooter{
+	background-color: var(--fondo-footer);
+	color: var(--color-base);
+	text-align: center;
+	padding: 2%;
+	font-weight: 700;
+}
+
+#foooter p{
+	margin-bottom: 5%;
+}
+
+.circulo{
+	border: solid 1px var(--color-base);
+	border-radius: 100%;
+	padding: 1%;
+	margin: 5% 1%;
+	color: var(--color-base);
+}
+
+.circulo:hover{
+	border: solid 1px var(--color-rojo);
+	color: var(--color-rojo);
+}
 
 
 
